@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apply – Designs by Sukaina</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">
+      <img src="/assets/logo/logo.png" alt="Designer Logo" width="150" />
+    </a>  
+      <!-- Hamburger Button for Small Screens -->
+      <button class="hamburger-menu" aria-label="Toggle navigation">
+        <span class="hamburger-icon"></span>
+      </button>
+    <nav>
+      <!-- Navigation Links -->
+      <a href="index.html">Home</a>
+      <a href="apply.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Form Section -->
+  <section class="form-wrapper">
+    <div class="form-visual vertical-floating-gallery">
+        <div class="floating-gallery-column">
+            <a href="#"><img src="/assets/designs/for website-01.png" alt="Design 1" /></a>
+        <a href="#"><img src="/assets/designs/for website-02.png" alt="Design 2" /></a>
+        <a href="#"><img src="/assets/designs/for website-03.png" alt="Design 3" /></a>
+        <a href="#"><img src="/assets/designs/for website-04.png" alt="Design 4" /></a>
+        <a href="#"><img src="/assets/designs/for website-05.png" alt="Design 5" /></a>
+        <a href="#"><img src="/assets/designs/for website-06.png" alt="Design 6" /></a>
+        <a href="#"><img src="/assets/designs/for website-07.png" alt="Design 7" /></a>
+        <a href="#"><img src="/assets/designs/for website-08.png" alt="Design 8" /></a>
+        <a href="#"><img src="/assets/designs/for website-09.png" alt="Design 9" /></a>
+        <a href="#"><img src="/assets/designs/for website-10.png" alt="Design 10" /></a>
+        <a href="#"><img src="/assets/designs/for website-11.png" alt="Design 11" /></a>
+        <a href="#"><img src="/assets/designs/for website-12.png" alt="Design 12" /></a>
+        <a href="#"><img src="/assets/designs/for website-13.png" alt="Design 13" /></a>
+        <a href="#"><img src="/assets/designs/for website-14.png" alt="Design 14" /></a>
+        <a href="#"><img src="/assets/designs/for website-15.png" alt="Design 15" /></a>
+        <a href="#"><img src="/assets/designs/for website-16.png" alt="Design 16" /></a>
+        <a href="#"><img src="/assets/designs/for website-17.png" alt="Design 17" /></a>
+        <a href="#"><img src="/assets/designs/for website-18.png" alt="Design 18" /></a>
+        <a href="#"><img src="/assets/designs/for website-19.png" alt="Design 19" /></a>
+  
+        <!-- Repeat again for looping -->
+        <a href="#"><img src="/assets/designs/for website-01.png" alt="Design 1" /></a>
+        <a href="#"><img src="/assets/designs/for website-02.png" alt="Design 2" /></a>
+        <a href="#"><img src="/assets/designs/for website-03.png" alt="Design 3" /></a>
+        <a href="#"><img src="/assets/designs/for website-04.png" alt="Design 4" /></a>
+        <a href="#"><img src="/assets/designs/for website-05.png" alt="Design 5" /></a>
+        <a href="#"><img src="/assets/designs/for website-06.png" alt="Design 6" /></a>
+        <a href="#"><img src="/assets/designs/for website-07.png" alt="Design 7" /></a>
+        <a href="#"><img src="/assets/designs/for website-08.png" alt="Design 8" /></a>
+        <a href="#"><img src="/assets/designs/for website-09.png" alt="Design 9" /></a>
+        <a href="#"><img src="/assets/designs/for website-10.png" alt="Design 10" /></a>
+        <a href="#"><img src="/assets/designs/for website-11.png" alt="Design 11" /></a>
+        <a href="#"><img src="/assets/designs/for website-12.png" alt="Design 12" /></a>
+        <a href="#"><img src="/assets/designs/for website-13.png" alt="Design 13" /></a>
+        <a href="#"><img src="/assets/designs/for website-14.png" alt="Design 14" /></a>
+        <a href="#"><img src="/assets/designs/for website-15.png" alt="Design 15" /></a>
+        <a href="#"><img src="/assets/designs/for website-16.png" alt="Design 16" /></a>
+        <a href="#"><img src="/assets/designs/for website-17.png" alt="Design 17" /></a>
+        <a href="#"><img src="/assets/designs/for website-18.png" alt="Design 18" /></a>
+        <a href="#"><img src="/assets/designs/for website-19.png" alt="Design 19" /></a>
+      </div>
+    </div>
+    <div class="form-section">
+      <h2>Apply to Work Together</h2>
+      <p class="subtitle">Fill out the form and I’ll get back to you soon 💌</p>
+
+      <form name="enquiry" method="POST" data-netlify="true" novalidate>
+        <input type="hidden" name="form-name" value="enquiry" />
+      
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+      
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Your email address" />
+      
+        <label for="brand">Brand Name</label>
+        <input type="text" id="brand" name="brand" required placeholder="Brand name" />
+      
+        <label for="handle">Instagram Handle or Website</label>
+        <input type="text" id="handle" name="handle" required placeholder="Instagram handle or website URL" />
+      
+        <label for="services">What services are you interested in?</label>
+        <select id="services" name="services" required>
+          <option value="" disabled selected>Select one</option>
+          <option value="Brand Identity + Packaging">Brand Identity + Packaging</option>
+          <option value="Packaging Only">Packaging Only</option>
+          <option value="Print Materials">Print Materials (Menu, Flyer, Brochure)</option>
+          <option value="Something Else">Something Else</option>
+        </select>
+      
+        <label for="about">Tell me a bit about your brand</label>
+        <textarea id="about" name="about" rows="4" required placeholder="Describe your brand"></textarea>
+      
+        <label for="products">What products do you need packaging for?</label>
+        <textarea id="products" name="products" rows="3" required placeholder="List the products"></textarea>
+      
+        <label for="identity">Do you already have a logo or brand identity?</label>
+        <select id="identity" name="identity" required>
+          <option value="" disabled selected>Select one</option>
+          <option value="Full Identity">Yes, full brand identity</option>
+          <option value="Needs Work">I have a logo, but it needs work</option>
+          <option value="Starting Fresh">No, I’m starting fresh</option>
+        </select>
+      
+        <label for="timeline">What’s your ideal timeline?</label>
+        <input type="text" id="timeline" name="timeline" required placeholder="Your ideal timeline" />
+      
+        <label for="budget">What’s your budget range?</label>
+        <select id="budget" name="budget" required>
+          <option value="" disabled selected>Select one</option>
+          <option value="Under $500">Under $500</option>
+          <option value="$500–$1000">$500–$1000</option>
+          <option value="$1000–$2000">$1000–$2000</option>
+          <option value="$2000+">$2000+</option>
+        </select>
+      
+        <label for="extra">Anything else you’d like to add?</label>
+        <textarea id="extra" name="extra" rows="3" placeholder="Additional details"></textarea>
+      
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    <div class="footer-links">
+      <a href="https://www.instagram.com/designsby_sukaina/" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/syeda-sukaina-shakeelgraphicdesigner/" target="_blank">LinkedIn</a>
+      <a href="https://www.behance.net/shedesigns2" target="_blank">Behance</a>
+      <a href="mailto:designbyher10@gmail.com">Email</a>
+    </div>
+    <p class="copyright">© 2025 Designs by Sukaina. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Get the hamburger menu and the navigation
+const hamburger = document.querySelector('.hamburger-menu');
+const nav = document.querySelector('header nav');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  nav.classList.toggle('active');
+});
+  </script>
+</body>
+</html>
