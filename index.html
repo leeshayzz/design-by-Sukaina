@@ -9,6 +9,11 @@
 </head>
 <body>
 
+  <div id="preloader">
+    <img src="/assets/mascots/mascot-2.png" alt="Loading mascot" class="mascot-loader">
+  </div>
+  
+
   <!-- Header -->
   <header>
     <a href="#" class="logo">
@@ -300,6 +305,12 @@ document.addEventListener('click', (e) => {
   });
 });
 
+
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    preloader.style.opacity = "0";
+    setTimeout(() => preloader.style.display = "none", 500);
+  });
 
 
 

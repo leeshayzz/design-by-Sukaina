@@ -135,6 +135,36 @@ textarea {
   resize: vertical;
 }
 
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--cream); /* or a soft pastel brand color */
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+.mascot-loader {
+  width: 120px;
+  animation: mascotBounce 1.5s ease-in-out infinite;
+}
+
+/* Cute bounce animation */
+@keyframes mascotBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
+}
+
+
 /* ========== Header ========== */
 header {
   background-color: var(--black);
